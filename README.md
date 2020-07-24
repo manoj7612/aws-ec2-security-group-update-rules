@@ -24,7 +24,7 @@ cd aws-ec2-security-group-update-rules/
  
 The script is password protected.  The default password is 'password'.  You can change the password and create a binary executable of it using the following command (shc must be installed):
 ```
-shc -f update_aws_sg.sh
+shc -v -r -T -f update_aws_sg.sh
 ``` 
 It will generate two files:
 ```
